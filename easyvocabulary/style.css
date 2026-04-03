@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Tu degradado aguamarina */
+    background: linear-gradient(135deg, #9CE0DB 0%, #338B85 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor del Login */
+.login-container {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-form h2 {
+    margin-bottom: 0.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.login-form p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Grupos de input */
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* CAMBIO: Color del borde al escribir (ahora verde) */
+.input-group input:focus {
+    border-color: #338B85;
+}
+
+/* Botón */
+.btn-login {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    /* CAMBIO: Botón verde bosque */
+    background-color: #338B85;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* CAMBIO: Color al pasar el mouse por el botón */
+.btn-login:hover {
+    background-color: #266b66;
+}
+
+/* Enlaces inferiores */
+.footer-links {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* CAMBIO: Color de los links (ahora verde) */
+.footer-links a {
+    color: #338B85;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-links span {
+    display: block;
+    margin-top: 10px;
+    color: #777;
+}
